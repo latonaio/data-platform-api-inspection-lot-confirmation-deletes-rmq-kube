@@ -1,0 +1,44 @@
+{
+  "connection_key": "requests",
+  "result": true,
+  "redis_key": "abcdefg",
+  "filepath": "/var/lib/aion/Data/rededge_sdc/abcdef.json",
+  "api_status_code": 200,
+  "runtime_session_id": "boi9ar543dg91ipdnspi099u231280ab0v8af0ew",
+  "business_partner": 201,
+  "service_label": "FUNCTION_BILL_OF_MATERIAL_DELETES",
+  "api_type": "deletes",
+  "message": {
+    "Header": {
+      "BillOfMaterial": 280000000,
+      "OwnerProductionPlantBusinessPartner": 201,
+      "IsMarkedForDeletion": true,
+      "Items": null
+    },
+    "Item": [
+      {
+        "BillOfMaterial": 280000000,
+        "BillOfMaterialItem": 1,
+        "IsMarkedForDeletion": true
+      },
+      {
+        "BillOfMaterial": 280000000,
+        "BillOfMaterialItem": 2,
+        "IsMarkedForDeletion": true
+      }
+    ]
+  },
+  "api_schema": "DPFMBillOfMaterialDeletes",
+  "accepter": [
+    "Header"
+  ],
+  "deleted": false,
+  "sql_update_result": null,
+  "sql_update_error": "",
+  "subfunc_result": null,
+  "subfunc_error": "",
+  "exconf_result": null,
+  "exconf_error": "",
+  "api_processing_result": true,
+  "api_processing_error": ""
+}
