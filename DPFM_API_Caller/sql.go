@@ -12,7 +12,7 @@ func (c *DPFMAPICaller) HeaderRead(
 	input *dpfm_api_input_reader.SDC,
 	log *logger.Logger,
 ) *dpfm_api_output_formatter.Header {
-	where := fmt.Sprintf("WHERE header.InspectionLotConfirmation = %d ", input.Header.InspectionLotConfirmation)
+	where := fmt.Sprintf("WHERE header.InspectionLotConfirmation = %d ", input.Header.InspectionLot)
 	rows, err := c.db.Query(
 		`SELECT 
 			header.InspectionLotConfirmation
